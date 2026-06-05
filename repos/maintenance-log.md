@@ -132,8 +132,26 @@ Each entry follows this structure:
 - No changes to app code, dependency merges, or profile repo.
 **Outcome:** Needs follow-up  
 **Follow-up Items:**
-- [Sparsh] [ ] Review openproof Dependabot PRs #3 (nextjs 16), #5 (hardhat), #9 (wagmi 3) — all CI-failing on Validate check
+- [Sparsh] [x] ~~Review openproof Dependabot PRs #3 (nextjs 16), #5 (hardhat), #9 (wagmi 3) — all CI-failing on Validate check~~ Migration plan created, see next entry.
 - [Sparsh] [ ] Review elora-vault PR #12 (ESLint 10) — merge conflict + CI failure
+
+---
+
+### 2026-06-05 — OpenProof Major Dependency Migration Plan
+
+**Trigger:** Planning (Dependabot follow-up)
+**Scope:** openproof only
+**Summary:** Created comprehensive migration plan for OpenProof's 5 remaining Dependabot PRs.
+**Findings:** All 5 remaining PRs involve major version changes or dependency grouping issues. Hardhat 3 requires ESM ("type: module") — the most impactful change.
+**Actions Taken:**
+- Reviewed all 5 open Dependabot PRs: #3 (nextjs 15→16), #5 (hardhat 2→3), #6 (chai 4→6), #8 (react-dom alone, needs react), #9 (wagmi 2→3)
+- Ran baseline checks on main — all pass (lint, typecheck, build, 4/4 contract tests)
+- Created docs/maintenance/major-dependency-migration-plan.md in openproof repo with risk matrix, 5-phase ordered migration, test strategy, rollback plan, and security considerations
+- Merged planning branch into openproof main (PR #10, commit 88bf1d3)
+**Outcome:** Needs discussion — 3 phases require Sparsh approval to implement
+**Follow-up Items:**
+- [Sparsh] [ ] Review and approve migration plan at docs/maintenance/major-dependency-migration-plan.md in openproof repo
+- [Sparsh] [ ] After approval, phases may be implemented in order (React → Next.js → Wagmi → Hardhat → Chai)
 
 ---
 
