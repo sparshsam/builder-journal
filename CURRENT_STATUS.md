@@ -17,6 +17,18 @@ This file is a public-safe snapshot. It should describe status, maturity, and ne
 | OpenBoard Chess | Public or public-intended | Upcoming build | Chess-related build. Use accurate status language and avoid overstating engine strength or completeness. |
 | LexiBoard | Public or public-intended | Upcoming build | Language, writing, or board-style tooling. Needs sharper project definition before launch claims. |
 | StreamDock | Public or public-intended | Upcoming build | Streaming/workflow support. Avoid exposing platform tokens, account details, or private setup. |
+
+## Monthly Health Check
+
+First monthly ecosystem health check completed on **2026-06-05**. All 8 tracked repositories verified.
+
+### High-Priority Follow-Up
+
+- **Batch-merge Dependabot PRs** — 20 open across openproof (8), elora-vault (4), pdfreader-by-sparsh (3), opensprout (3), quietledger (2)
+- **Create initial releases/tags** — hiss-tastic, opensprout, quietledger, openproof, elora-vault have changelogs and active CI but no GitHub releases
+- **Consider tagging ecosystem-standards** as v1.0.0 baseline
+
+See [`repos/health-checks/2026-06-first-monthly-health-check.md`](./repos/health-checks/2026-06-first-monthly-health-check.md) for full results.
 | QuietVault | Public or public-intended | Upcoming build | Personal vault or records tooling. Privacy and security claims must remain conservative unless proven. |
 
 ## Status Rules
