@@ -61,6 +61,9 @@ Never commit:
 | `DECISIONS.md` | Initial product and ecosystem decisions |
 | `MAINTENANCE.md` | Maintenance model and recurring care |
 | `CHANGELOG.md` | Versioned history |
+| `agents/` | Agent coordination, handoff templates, and agent-specific rules |
+| `plans/` | Build roadmaps for upcoming ecosystem projects |
+| `templates/` | Reusable templates for build plans, handoffs, and decision logging |
 
 ## Limitations
 
