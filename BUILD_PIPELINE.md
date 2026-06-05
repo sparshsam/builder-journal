@@ -9,7 +9,7 @@ This is the recommended public-safe build order for the ecosystem. It is a seque
 | 1 | Builder Journal | Establish the command center, status language, decision log, and public/private boundaries first. |
 | 2 | Repo health / maintenance system | Make repository upkeep visible before expanding the number of active builds. |
 | 3 | FridgeWise | Begin a practical household/care-oriented build with clear public boundaries. |
-| 4 | OpenBoard Chess | Build a focused interactive project with contained scope and visible progress. |
+| 4 | Chess by Sparsh | Build a focused interactive project with contained scope and visible progress. |
 | 5 | TW Oracle Personal Lab | Keep private decision-support work bounded and high-level in public references. |
 | 6 | StreamDock | Add workflow tooling after baseline repo health and early product work are stable. |
 | 7 | LexiBoard | Develop once purpose, scope, and relation to other language/writing tools are clearer. |

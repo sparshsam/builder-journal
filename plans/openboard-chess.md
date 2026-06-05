@@ -1,4 +1,4 @@
-# OpenBoard Chess — Build Roadmap
+# Chess by Sparsh — Build Roadmap
 
 ## Purpose
 
