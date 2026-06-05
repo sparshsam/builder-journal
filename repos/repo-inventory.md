@@ -10,11 +10,11 @@ This file is the canonical inventory of all ecosystem repositories tracked by th
 
 || Repo | Category | Visibility | Status | Sensitivity | Latest Known Version | Current Priority | Next Action |
 ||------|----------|------------|--------|-------------|---------------------|------------------|-------------|
-|| [pdfreader-by-sparsh](https://github.com/sparshsam/pdfreader-by-sparsh) | Local documents | Public | active | public-safe | v0.3.2 | Low | Merge Dependabot PRs (3 open); normal development cycle |
+|| [pdfreader-by-sparsh](https://github.com/sparshsam/pdfreader-by-sparsh) | Local documents | Public | active | public-safe | v0.3.2 | Low | Dependabot backlog cleared (0 open). Normal development cycle. |
 || [hiss-tastic](https://github.com/sparshsam/hiss-tastic) | Focus and interfaces | Public | active | public-safe | – | Low | Retro arcade game (Snake-inspired). Active commits. Consider creating initial release/tag. |
 || [openproof](https://github.com/sparshsam/openproof) | Proof and verification | Public | active | public-safe | v2 (receipt schema) | Medium | Continue MVP refinement; see memory notes on receipt schema |
-|| [opensprout](https://github.com/sparshsam/opensprout) | Care and household systems | Public | active | public-safe | – | Low | Privacy-first plant care. Active commits (2026-05-31). Merge Dependabot PRs (3 open). |
-|| [quietledger](https://github.com/sparshsam/quietledger) | Behavioral finance | Public | active | public-safe | – | Low | Local-first finance tooling. Active commits (2026-05-31). Merge Dependabot PRs (2 open). |
+|| [opensprout](https://github.com/sparshsam/opensprout) | Care and household systems | Public | active | public-safe | – | Low | Privacy-first plant care. Active commits. Dependabot backlog cleared (0 open). |
+|| [quietledger](https://github.com/sparshsam/quietledger) | Behavioral finance | Public | active | public-safe | – | Low | Local-first finance tooling. Active commits. Dependabot backlog cleared (0 open). |
 || [elora-vault](https://github.com/sparshsam/elora-vault) | Behavioral finance | Public | active | betting-sensitive | v0.9 | High | Continue Phase 5/6 development; see memory notes |
 || [ecosystem-standards](https://github.com/sparshsam/ecosystem-standards) | Standards | Public | maintained | public-safe | – | High | Canonical source; update only when standards change |
 || [builder-journal](https://github.com/sparshsam/builder-journal) | Command center | Public | active | public-safe | – | High | Ongoing; current sprint |
