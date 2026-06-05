@@ -28,3 +28,9 @@ Builder Journal should remain useful because it is current, restrained, and easy
 - Changelog has an entry for each release.
 - Decision records are dated and public-safe.
 - Project status table does not overclaim maturity.
+
+## Repo Maintenance System
+
+The [`repos/`](./repos/) directory contains the operational maintenance system — inventory, health checks, release tracking, archival decisions, sensitive repo rules, and a dated maintenance log. All monthly and event-driven maintenance should reference these files.
+
+See [`repos/repo-health-checks.md`](./repos/repo-health-checks.md) for the monthly procedure and [`repos/repo-inventory.md`](./repos/repo-inventory.md) for the current lifecycle status of every repo.
