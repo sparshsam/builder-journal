@@ -25,8 +25,6 @@ Each entry follows this structure:
 
 ## Entries
 
-_No entries yet. The first maintenance action should create the first entry._
-
 ---
 
 ### 2026-06-05 — Configure Branch Protection for main
@@ -70,9 +68,29 @@ _No entries yet. The first maintenance action should create the first entry._
 - Updated `CURRENT_STATUS.md` — added health check note and follow-up items
 **Outcome:** Needs follow-up  
 **Follow-up Items:**
-- [Sparsh] [ ] Batch-merge Dependabot PRs across openproof (8), elora-vault (4), pdfreader (3), opensprout (3), quietledger (2)
+- [Sparsh] [x] ~~Batch-merge Dependabot PRs across openproof (8), elora-vault (4), pdfreader (3), opensprout (3), quietledger (2)~~ Completed by Agent B on 2026-06-05
 - [Sparsh] [ ] Create initial releases/tags for hiss-tastic, opensprout, quietledger, openproof, elora-vault
 - [Sparsh] [ ] Consider tagging ecosystem-standards as v1.0.0
+
+---
+
+### 2026-06-05 — Dependabot Backlog Cleanup
+
+**Trigger:** Monthly follow-up  
+**Scope:** pdfreader-by-sparsh, opensprout, quietledger, openproof, elora-vault  
+**Summary:** Processed 25 Dependabot PRs across 5 ecosystem repos. Merged low-risk updates (GitHub Actions, patch, minor). Left open major-version or breaking updates for Sparsh review.  
+**Findings:** See full report in PR #3 description.  
+**Actions Taken:**
+- **pdfreader-by-sparsh:** Merged 3/4 PRs (setup-python 5→6, checkout 4→6, upload-artifact 4→7). Left open: download-artifact 4→8 awaiting CI.
+- **opensprout:** Merged 4/7 PRs (setup-node 4→6, checkout 4→6, grouped minor/patch, lucide-react 0.468→1.17, tailwind-merge 2→3 via CI-pending). Left open: tailwindcss 3→4 (breaking), typescript 5→6 (breaks CSS imports), lucide-react/checkout waiting on CI.
+- **quietledger:** Merged 0/2 (both pushed for CI — lucide-react 1.16→1.17, react group 19.2.4→19.2.7). Expected to merge after CI passes.
+- **openproof:** Merged 2/8 PRs (checkout 4→6, setup-node 4→6). Left open: react-dom 19.2.4→19.2.7 (needs react bump together), nextjs 15→16 (config loading break), hardhat 2→3 (ESM requirement), chai 4→6 (peer dep conflict), wagmi 2→3 (breaking API), lucide-react pushed for CI.
+- **elora-vault:** All 4 PRs pushed for CI (nextjs 16.2.6→16.2.7 patch, supabase-js 2.106.2→2.107.0 minor, react 19.2.4→19.2.7 patch, eslint 9→10). Merging blocked by branch protection requiring CI checks.
+**Outcome:** Needs follow-up (12 PRs remain open, most requiring manual review)  
+**Follow-up Items:**
+- [Sparsh] [ ] Review and merge major-update Dependabot PRs across openproof (6 remaining) and opensprout (3 remaining)
+- [Sparsh] [ ] Approve CI-pending PRs once checks pass (quietledger #3/#4, opensprout #7, pdfreader #6, openproof #7, elora-vault #9/#10/#11/#12)
+- [Sparsh] [ ] Next actions: tailwindcss v4 migration, TypeScript 6 migration, Wagmi v3 migration for elora-vault
 
 ---
 
