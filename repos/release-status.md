@@ -18,7 +18,7 @@ Tracks current releases, artifacts, and blockers across all ecosystem repositori
 | builder-journal | v0.1.0 | 2026-06-05 | Minor | GitHub Releases (source tag) | None known | TBD |
 | tw-oracle-personal | – | – | – | – | Private; internal only | – |
 | fridgewise | – | – | – | – | Not yet created | – |
-| openboard-chess | – | – | – | – | Not yet created | – |
+| chess-by-sparsh | – | – | – | – | Not yet created | – |
 | lexiboard | – | – | – | – | Not yet created | – |
 | streamdock | – | – | – | – | Not yet created | – |
 | quietvault | – | – | – | – | Not yet created | – |
