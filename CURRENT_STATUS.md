@@ -24,7 +24,7 @@ First monthly ecosystem health check completed on **2026-06-05**. All 8 tracked 
 
 ### High-Priority Follow-Up
 
-- **Batch-merge Dependabot PRs** — 20 open across openproof (8), elora-vault (4), pdfreader-by-sparsh (3), opensprout (3), quietledger (2)
+- **Batch-merge Dependabot PRs** — Cleanup completed (15 merged, 10 remaining). See [`repos/maintenance-log.md`](./repos/maintenance-log.md) for details.
 - **Create initial releases/tags** — hiss-tastic, opensprout, quietledger, openproof, elora-vault have changelogs and active CI but no GitHub releases
 - **Consider tagging ecosystem-standards** as v1.0.0 baseline
 
