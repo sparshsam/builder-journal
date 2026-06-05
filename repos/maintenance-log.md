@@ -29,6 +29,27 @@ _No entries yet. The first maintenance action should create the first entry._
 
 ---
 
+### 2026-06-05 — Configure Branch Protection for main
+
+**Trigger:** Ad-hoc (foundation setup)  
+**Scope:** `builder-journal` only  
+**Summary:** Configured GitHub branch protection rules on `main` to prevent accidental overwrites, force pushes, deletions, or direct commits by agents.  
+**Findings:** Branch was unprotected. Multiple agents may work around this repo; protection was needed.  
+**Actions Taken:**
+- Enabled require pull request before merging (1 review, dismiss stale)
+- Enabled require conversation resolution before merging
+- Enabled require linear history
+- Disabled force pushes
+- Disabled deletions
+- Admins not included in enforcement (Sparsh can bypass)
+- Required status checks left disabled — no CI workflows exist yet
+- Signed commits not required — not part of ecosystem standard
+**Outcome:** Healthy  
+**Follow-up Items:**
+- [ ] Enable required status checks once CI workflows are added and reliable
+
+---
+
 ## Log Maintenance Rules
 
 1. **Date every entry** with the actual date of the maintenance action. Use ISO 8601 (YYYY-MM-DD).
