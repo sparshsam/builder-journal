@@ -94,6 +94,25 @@ Each entry follows this structure:
 
 ---
 
+### 2026-06-05 — Elora Vault Dependabot Follow-Up
+
+**Trigger:** Monthly follow-up (part 2)  
+**Scope:** `elora-vault` only  
+**Summary:** Addressed remaining Dependabot PRs on elora-vault.  
+**Findings:**  
+- PR #11 (React group 19.2.4→19.2.7): CI passed. Merged successfully at `fb5fee0`.  
+- PR #12 (ESLint 9→10): Lint/TypeScript CI fails with `TypeError: Error while loading rule 'react/display-name': contextOrFilename.getFilename is not a function`. This is a toolchain config compatibility issue — `eslint-config-next` and `eslint-plugin-react` use APIs deprecated in ESLint 10. Fix requires updating the ESLint plugin toolchain to compatible versions.  
+**Actions Taken:**
+- Merged PR #11 (React group patch bump 19.2.4→19.2.7) — all checks passed.
+- Reviewed PR #12 failure — determined to be a config compatibility issue too risky for automated fix.
+- Left PR #12 open for Sparsh review.
+- Confirmed no sensitive logic, vault contracts, wallet code, auth flows, deployment settings, or environment config was touched.
+**Outcome:** Needs follow-up  
+**Follow-up Items:**
+- [Sparsh] [ ] Review elora-vault PR #12 (ESLint 10) — needs eslint-config-next / eslint-plugin-react version bump for ESLint 10 API compatibility
+
+---
+
 ## Log Maintenance Rules
 
 1. **Date every entry** with the actual date of the maintenance action. Use ISO 8601 (YYYY-MM-DD).
