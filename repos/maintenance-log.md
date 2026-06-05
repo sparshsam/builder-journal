@@ -113,6 +113,30 @@ Each entry follows this structure:
 
 ---
 
+### 2026-06-05 — Verify Remaining Dependabot Backlog
+
+**Trigger:** Verification pass  
+**Scope:** pdfreader-by-sparsh, opensprout, quietledger, openproof, elora-vault  
+**Summary:** Audited open Dependabot PRs across all 5 repos and corrected stale backlog counts in Builder Journal documentation.  
+**Findings:**  
+- **pdfreader-by-sparsh:** 0 open ✅ — Clean  
+- **opensprout:** 0 open ✅ — Clean (Tailwind v4 and TypeScript 6 migrations completed)  
+- **quietledger:** 0 open ✅ — Clean (lucide-react and react group PRs merged)  
+- **openproof:** 3 open — PR #3 (nextjs 15→16 major, CI-failing), PR #5 (hardhat minor, CI-failing), PR #9 (wagmi 2→3 major, CI-failing)  
+- **elora-vault:** 1 open — PR #12 (eslint 9→10 major, CI-failing, merge conflict)  
+**Total remaining:** 4 PRs (all major/breaking or CI-failing)  
+**Actions Taken:**
+- Verified live Dependabot state across all 5 repos via GitHub API.
+- Updated `repos/repo-inventory.md` — corrected stale "N open" notes for pdfreader-by-sparsh, opensprout, and quietledger to reflect clean state.
+- Updated `CURRENT_STATUS.md` — changed remaining count from 10 to 4.
+- No changes to app code, dependency merges, or profile repo.
+**Outcome:** Needs follow-up  
+**Follow-up Items:**
+- [Sparsh] [ ] Review openproof Dependabot PRs #3 (nextjs 16), #5 (hardhat), #9 (wagmi 3) — all CI-failing on Validate check
+- [Sparsh] [ ] Review elora-vault PR #12 (ESLint 10) — merge conflict + CI failure
+
+---
+
 ## Log Maintenance Rules
 
 1. **Date every entry** with the actual date of the maintenance action. Use ISO 8601 (YYYY-MM-DD).

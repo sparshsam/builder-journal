@@ -24,7 +24,7 @@ First monthly ecosystem health check completed on **2026-06-05**. All 8 tracked 
 
 ### High-Priority Follow-Up
 
-- **Batch-merge Dependabot PRs** — Cleanup completed (15 merged, 10 remaining). See [`repos/maintenance-log.md`](./repos/maintenance-log.md) for details.
+- **Batch-merge Dependabot PRs** — Cleanup progressed (15 merged, 4 remaining across openproof and elora-vault). See [`repos/maintenance-log.md`](./repos/maintenance-log.md) for details.
 - **Create initial releases/tags** — hiss-tastic, opensprout, quietledger, openproof, elora-vault have changelogs and active CI but no GitHub releases
 - **Consider tagging ecosystem-standards** as v1.0.0 baseline
 
