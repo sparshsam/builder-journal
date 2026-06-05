@@ -8,14 +8,14 @@ Tracks current releases, artifacts, and blockers across all ecosystem repositori
 
 | Repo | Current Version | Latest Release Date | Release Type | Artifact Status | Known Release Blockers | Next Release Target |
 |------|----------------|---------------------|-------------|----------------|----------------------|---------------------|
-|| pdfreader-by-sparsh | v0.3.2 | 2026-06-05 | Patch | GitHub Releases (source tag) | None known | TBD |
-|| hiss-tastic | – | – | – | – | No releases yet. Changelog details v0.1.0–v0.4.6 | Consider v0.5.0 |
-|| openproof | – | – | – | – | No releases despite active CI and architecture docs | TBD |
-|| opensprout | – | – | – | – | No releases yet. Changelog has v0.1.0 items | Consider v0.1.0 |
-|| quietledger | – | – | – | – | No releases yet. Changelog has v0.1.0 items | Consider v0.1.0 |
-|| elora-vault | v0.9 | _to verify_ | Pre-release | Source tag | Phase 5/6 pending | v1.0 |
-|| ecosystem-standards | – | – | – | – | No releases. Consider tagging initial foundation as v1.0.0 | TBD |
-|| builder-journal | v0.1.0 | 2026-06-05 | Minor | GitHub Releases (source tag) | None known | TBD |
+| pdfreader-by-sparsh | v0.3.2 | 2026-06-05 | Patch | GitHub Releases (source tag) | None known | TBD |
+| hiss-tastic | – | – | – | – | No releases yet. Changelog details v0.1.0–v0.4.6 | Consider v0.5.0 |
+| openproof | – | – | – | – | No releases despite active CI and architecture docs | TBD |
+| opensprout | – | – | – | – | No releases yet. Changelog has v0.1.0 items | Consider v0.1.0 |
+| quietledger | – | – | – | – | No releases yet. Changelog has v0.1.0 items | Consider v0.1.0 |
+| elora-vault | v0.9 | _to verify_ | Pre-release | Source tag | Phase 5/6 pending | v1.0 |
+| ecosystem-standards | – | – | – | – | No releases. Consider tagging initial foundation as v1.0.0 | TBD |
+| builder-journal | v0.1.0 | 2026-06-05 | Minor | GitHub Releases (source tag) | None known | TBD |
 | tw-oracle-personal | – | – | – | – | Private; internal only | – |
 | fridgewise | – | – | – | – | Not yet created | – |
 | openboard-chess | – | – | – | – | Not yet created | – |
