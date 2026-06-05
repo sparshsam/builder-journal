@@ -9,11 +9,11 @@ This is the recommended public-safe build order for the ecosystem. It is a seque
 | 1 | Builder Journal | Establish the command center, status language, decision log, and public/private boundaries first. |
 | 2 | Repo health / maintenance system | Make repository upkeep visible before expanding the number of active builds. |
 | 3 | FridgeWise | Begin a practical household/care-oriented build with clear public boundaries. |
-| 4 | OpenBoard Chess | Build a focused interactive project with contained scope and visible progress. |
-| 5 | TW Oracle Personal Lab | Keep private decision-support work bounded and high-level in public references. |
+| 4 | Chess by Sparsh (`openboard-chess`) | Create a standalone chess board repository after planning is clear. Keep Builder Journal as planner only. |
+| 5 | TW Oracle Personal Lab | Keep private lab references high-level in public documents. |
 | 6 | StreamDock | Add workflow tooling after baseline repo health and early product work are stable. |
 | 7 | LexiBoard | Develop once purpose, scope, and relation to other language/writing tools are clearer. |
-| 8 | QuietVault | Approach after security, privacy, and data-boundary expectations are mature. |
+| 8 | QuietVault | Approach after privacy, safety, and data-boundary expectations are mature. |
 
 ## Pipeline Rules
 
@@ -22,3 +22,4 @@ This is the recommended public-safe build order for the ecosystem. It is a seque
 - Prefer finishing foundation and maintenance work before adding new surface area.
 - Record meaningful product decisions in `DECISIONS.md`.
 - Update `CURRENT_STATUS.md` after major milestones, releases, pauses, or deprecations.
+- Do not build standalone applications inside Builder Journal; use it only for roadmap, public-safe status, decisions, build sequencing, and agent handoff notes.

@@ -14,7 +14,7 @@ This file is a public-safe snapshot. It should describe status, maturity, and ne
 | Elora Vault | Public or public-intended | Needs review | Behavioral finance and vault mechanics. Keep claims practical and documented. |
 | TW Oracle Personal Lab | Private / sensitive | High-level only | Private decision-support lab. Do not disclose methodology, picks, prompts, data, infrastructure, or performance details. |
 | FridgeWise | Public or public-intended | Upcoming build | Food and household inventory tooling. Keep user data and household specifics out of public docs. |
-| OpenBoard Chess | Public or public-intended | Upcoming build | Chess-related build. Use accurate status language and avoid overstating engine strength or completeness. |
+| Chess by Sparsh (`openboard-chess`) | Public or public-intended | Upcoming build | Planned standalone chess board repository. Builder Journal tracks roadmap, status, decisions, sequencing, and handoff notes only. Do not build the app in this repo. |
 | LexiBoard | Public or public-intended | Upcoming build | Language, writing, or board-style tooling. Needs sharper project definition before launch claims. |
 | StreamDock | Public or public-intended | Upcoming build | Streaming/workflow support. Avoid exposing platform tokens, account details, or private setup. |
 
