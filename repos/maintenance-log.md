@@ -155,6 +155,24 @@ Each entry follows this structure:
 
 ---
 
+---
+
+### 2026-06-05 — Remaining Ecosystem Dependency Backlog Completion
+
+**Trigger:** Monthly follow-up (final pass)
+**Scope:** openproof, elora-vault
+**Summary:** Completed all safe remaining dependency migrations. Phases 3-5 blocked by upstream/approval requirements.
+**Actions Taken:**
+- **OpenProof Phase 1 (React patch):** Merged PR #11 — bumped react + react-dom 19.2.4→19.2.7 (commit ae86f67)
+- **OpenProof Phase 2 (Next.js 16):** Merged PR #12 — migrated Next.js 15.5.18→16.2.7, renamed next.config.ts→next.config.mts, replaced webpack with Turbopack, updated eslint.config.mjs from FlatCompat to direct flat config, fixed react-hooks/set-state-in-effect lint violations (commit c4b409d)
+- **OpenProof remaining:** PR #9 (wagmi 2→3), PR #5 (hardhat 2→3), PR #6 (chai 4→6) left open per migration plan (require Sparsh approval)
+- **Elora Vault PR #12 (ESLint 9→10):** Investigated. Blocker: eslint-plugin-react 7.37.5 uses deprecated context.getFilename() API removed in ESLint 10. Upstream fix needed from eslint-plugin-react or eslint-config-next. PR left open with conflict resolved.
+- No wallet logic, proof logic, contract logic, vault logic, auth flows, deployment settings, environment config, or secrets modified.
+**Outcome:** Needs discussion — 4 PRs remain open (2 for Sparsh approval, 1 upstream blocked, 1 peer-dep blocked)
+**Follow-up Items:**
+- [Sparsh] [ ] Review OpenProof Phases 3-5: wagmi 3 (PR #9), hardhat 3 (PR #5), chai 6 (PR #6) at docs/maintenance/major-dependency-migration-plan.md
+- [Sparsh] [ ] Review elora-vault PR #12 (ESLint 10) — blocked by eslint-plugin-react upstream incompatibility
+
 ## Log Maintenance Rules
 
 1. **Date every entry** with the actual date of the maintenance action. Use ISO 8601 (YYYY-MM-DD).
