@@ -20,7 +20,7 @@ This file is the canonical inventory of all ecosystem repositories tracked by th
 || [builder-journal](https://github.com/sparshsam/builder-journal) | Command center | Public | active | public-safe | – | High | Ongoing; current sprint |
 || [tw-oracle-personal](https://github.com/sparshsam/tworacle) | Private decision support | Private | sensitive | betting-sensitive | – | Medium | Maintain high-level-only public posture; do not disclose methodology |
 || fridgewise | Care and household systems | – | planned | public-safe | – | Low | Upcoming build; not yet created |
-|| openboard-chess | Focus and interfaces | – | planned | public-safe | – | Low | Upcoming build; not yet created |
+|| chess-by-sparsh | Focus and interfaces | – | planned | public-safe | – | Low | Upcoming build; not yet created |
 || lexiboard | Focus and interfaces | – | planned | public-safe | – | Low | Upcoming build; needs sharper definition |
 || streamdock | Focus and interfaces | – | planned | privacy-sensitive | – | Low | Upcoming build; avoid platform tokens and account details |
 || quietvault | Behavioral finance | – | planned | security-sensitive | – | Low | Upcoming build; privacy/security claims must remain conservative |
