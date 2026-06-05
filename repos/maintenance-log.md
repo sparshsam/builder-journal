@@ -78,7 +78,7 @@ Each entry follows this structure:
 
 **Trigger:** Monthly follow-up  
 **Scope:** pdfreader-by-sparsh, opensprout, quietledger, openproof, elora-vault  
-**Summary:** Processed 25 Dependabot PRs across 5 ecosystem repos. Merged low-risk updates (GitHub Actions, patch, minor). Left open major-version or breaking updates for Sparsh review.  
+**Summary:** Processed 25 Dependabot PRs across 5 repos. Merged 15 PRs and left 10 open for CI completion, manual migration, or Sparsh review.  
 **Findings:** See full report in PR #3 description.  
 **Actions Taken:**
 - **pdfreader-by-sparsh:** Merged 3/4 PRs (setup-python 5→6, checkout 4→6, upload-artifact 4→7). Left open: download-artifact 4→8 awaiting CI.
