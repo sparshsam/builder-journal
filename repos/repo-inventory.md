@@ -8,22 +8,22 @@ This file is the canonical inventory of all ecosystem repositories tracked by th
 
 ## Inventory Table
 
-| Repo | Category | Visibility | Status | Sensitivity | Latest Known Version | Current Priority | Next Action |
-|------|----------|------------|--------|-------------|---------------------|------------------|-------------|
-| [pdfreader-by-sparsh](https://github.com/sparshsam/pdfreader-by-sparsh) | Local documents | Public | needs review | public-safe | – | Low | Verify actual status; confirm README and .gitignore are current |
-| [hiss-tastic](https://github.com/sparshsam/hiss-tastic) | Focus and interfaces | Public | needs definition | public-safe | – | Low | Clarify project purpose and maturity before further action |
-| [openproof](https://github.com/sparshsam/openproof) | Proof and verification | Public | active | public-safe | v2 (receipt schema) | Medium | Continue MVP refinement; see memory notes on receipt schema |
-| [opensprout](https://github.com/sparshsam/opensprout) | Care and household systems | Public | needs review | public-safe | – | Low | Verify status; avoid personal household data in docs |
-| [quietledger](https://github.com/sparshsam/quietledger) | Behavioral finance | Public | needs review | public-safe | – | Low | Verify status; do not commit personal financial data |
-| [elora-vault](https://github.com/sparshsam/elora-vault) | Behavioral finance | Public | active | betting-sensitive | v0.9 | High | Continue Phase 5/6 development; see memory notes |
-| [ecosystem-standards](https://github.com/sparshsam/ecosystem-standards) | Standards | Public | maintained | public-safe | – | High | Canonical source; update only when standards change |
-| [builder-journal](https://github.com/sparshsam/builder-journal) | Command center | Public | active | public-safe | – | High | Ongoing; current sprint |
-| [tw-oracle-personal](https://github.com/sparshsam/tworacle) | Private decision support | Private | sensitive | betting-sensitive | – | Medium | Maintain high-level-only public posture; do not disclose methodology |
-| fridgewise | Care and household systems | – | planned | public-safe | – | Low | Upcoming build; not yet created |
-| openboard-chess | Focus and interfaces | – | planned | public-safe | – | Low | Upcoming build; not yet created |
-| lexiboard | Focus and interfaces | – | planned | public-safe | – | Low | Upcoming build; needs sharper definition |
-| streamdock | Focus and interfaces | – | planned | privacy-sensitive | – | Low | Upcoming build; avoid platform tokens and account details |
-| quietvault | Behavioral finance | – | planned | security-sensitive | – | Low | Upcoming build; privacy/security claims must remain conservative |
+|| Repo | Category | Visibility | Status | Sensitivity | Latest Known Version | Current Priority | Next Action |
+||------|----------|------------|--------|-------------|---------------------|------------------|-------------|
+|| [pdfreader-by-sparsh](https://github.com/sparshsam/pdfreader-by-sparsh) | Local documents | Public | active | public-safe | v0.3.2 | Low | Merge Dependabot PRs (3 open); normal development cycle |
+|| [hiss-tastic](https://github.com/sparshsam/hiss-tastic) | Focus and interfaces | Public | active | public-safe | – | Low | Retro arcade game (Snake-inspired). Active commits. Consider creating initial release/tag. |
+|| [openproof](https://github.com/sparshsam/openproof) | Proof and verification | Public | active | public-safe | v2 (receipt schema) | Medium | Continue MVP refinement; see memory notes on receipt schema |
+|| [opensprout](https://github.com/sparshsam/opensprout) | Care and household systems | Public | active | public-safe | – | Low | Privacy-first plant care. Active commits (2026-05-31). Merge Dependabot PRs (3 open). |
+|| [quietledger](https://github.com/sparshsam/quietledger) | Behavioral finance | Public | active | public-safe | – | Low | Local-first finance tooling. Active commits (2026-05-31). Merge Dependabot PRs (2 open). |
+|| [elora-vault](https://github.com/sparshsam/elora-vault) | Behavioral finance | Public | active | betting-sensitive | v0.9 | High | Continue Phase 5/6 development; see memory notes |
+|| [ecosystem-standards](https://github.com/sparshsam/ecosystem-standards) | Standards | Public | maintained | public-safe | – | High | Canonical source; update only when standards change |
+|| [builder-journal](https://github.com/sparshsam/builder-journal) | Command center | Public | active | public-safe | – | High | Ongoing; current sprint |
+|| [tw-oracle-personal](https://github.com/sparshsam/tworacle) | Private decision support | Private | sensitive | betting-sensitive | – | Medium | Maintain high-level-only public posture; do not disclose methodology |
+|| fridgewise | Care and household systems | – | planned | public-safe | – | Low | Upcoming build; not yet created |
+|| openboard-chess | Focus and interfaces | – | planned | public-safe | – | Low | Upcoming build; not yet created |
+|| lexiboard | Focus and interfaces | – | planned | public-safe | – | Low | Upcoming build; needs sharper definition |
+|| streamdock | Focus and interfaces | – | planned | privacy-sensitive | – | Low | Upcoming build; avoid platform tokens and account details |
+|| quietvault | Behavioral finance | – | planned | security-sensitive | – | Low | Upcoming build; privacy/security claims must remain conservative |
 
 ---
 

@@ -50,6 +50,32 @@ _No entries yet. The first maintenance action should create the first entry._
 
 ---
 
+### 2026-06-05 — First Monthly Ecosystem Health Check
+
+**Trigger:** Monthly (first run)  
+**Scope:** All 8 tracked repos (pdfreader-by-sparsh, hiss-tastic, opensprout, quietledger, builder-journal, ecosystem-standards, openproof, elora-vault)  
+**Summary:** Completed first monthly repo health check for the ecosystem. Checked build, tests, deps, security, README, changelog, releases, and issue health for each repo.  
+**Findings:**
+- All 8 repos exist and are accessible with full doc suites (README, LICENSE, CHANGELOG, SECURITY.md).
+- Zero open issues across all repos — excellent triage hygiene.
+- 20 open Dependabot PRs across 5 repos (pdfreader: 3, opensprout: 3, quietledger: 2, openproof: 8, elora-vault: 4).
+- 5 code repos lack GitHub releases/tags despite having changelogs and active CI.
+- All CI workflows passing where configured.
+- builder-journal branch protection confirmed active.
+**Actions Taken:**
+- Created `repos/health-checks/` directory and `2026-06-first-monthly-health-check.md`
+- Created `repos/health-checks/README.md`
+- Updated `repos/repo-inventory.md` — promoted 4 repos from needs review/definition to active
+- Updated `repos/release-status.md` — verified release data for all repos
+- Updated `CURRENT_STATUS.md` — added health check note and follow-up items
+**Outcome:** Needs follow-up  
+**Follow-up Items:**
+- [Sparsh] [ ] Batch-merge Dependabot PRs across openproof (8), elora-vault (4), pdfreader (3), opensprout (3), quietledger (2)
+- [Sparsh] [ ] Create initial releases/tags for hiss-tastic, opensprout, quietledger, openproof, elora-vault
+- [Sparsh] [ ] Consider tagging ecosystem-standards as v1.0.0
+
+---
+
 ## Log Maintenance Rules
 
 1. **Date every entry** with the actual date of the maintenance action. Use ISO 8601 (YYYY-MM-DD).
