@@ -1,5 +1,8 @@
 # Builder Journal
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Standard](https://img.shields.io/badge/status-stable-green)]()
+
 **Public builder journal and ecosystem command center for Sparsh Sam's software projects.**
 
 Builder Journal tracks the direction of Sparsh Sam's software ecosystem at a public-safe level: ambitions, active builds, upcoming builds, repository health, maintenance priorities, product decisions, and agent notes that can be shared without exposing sensitive details.
@@ -74,3 +77,7 @@ Public entries may intentionally stay high-level when the underlying project is 
 ## License
 
 MIT License. See [`LICENSE`](LICENSE).
+
+---
+
+*Last updated: June 2026*
