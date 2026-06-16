@@ -1,6 +1,6 @@
 # Contributing
 
-Builder Journal is the public command center for Sparsh Sam's software ecosystem. Contributions should improve project records, maintenance clarity, standards alignment, or public documentation.
+Builder Journal is the public command center for your software ecosystem. Contributions should improve project records, maintenance clarity, standards alignment, or public documentation.
 
 ## Useful Contributions
 

@@ -2,9 +2,9 @@
 
 ## Purpose of Builder Journal
 
-Builder Journal is the public-safe builder journal and ecosystem command center for Sparsh Sam's software projects. It tracks strategic direction, active builds, upcoming builds, repository health, maintenance priorities, product decisions, and agent coordination notes — all at a level that does not expose sensitive details.
+Builder Journal is your public-safe builder journal and ecosystem command center. It tracks strategic direction, active builds, upcoming builds, repository health, maintenance priorities, product decisions, and agent coordination notes — all at a level that does not expose sensitive details.
 
-This repository exists so that humans and AI agents have a single place to understand:
+This repository exists so you and your agents have a single place to understand:
 - What is being built and why
 - What order work should happen in
 - Where public, private, and experimental boundaries sit

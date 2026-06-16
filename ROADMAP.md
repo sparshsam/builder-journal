@@ -1,6 +1,6 @@
 # Builder Journal — Roadmap
 
-> Public builder journal and ecosystem command center for Sparsh Sam's software projects.
+> Your public builder journal and ecosystem command center.
 
 ## Current — v0.1 (June 2026)
 

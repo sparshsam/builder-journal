@@ -16,7 +16,8 @@ This file is a public-safe snapshot. It should describe status, maturity, and ne
 | FridgeWise | Public or public-intended | Upcoming build | Food and household inventory tooling. Keep user data and household specifics out of public docs. |
 | Chess by Sparsh | Public or public-intended | Upcoming build | Chess-related build. Use accurate status language and avoid overstating engine strength or completeness. |
 | LexiBoard | Public or public-intended | Upcoming build | Language, writing, or board-style tooling. Needs sharper project definition before launch claims. |
-| StreamDock | Public or public-intended | Upcoming build | Streaming/workflow support. Avoid exposing platform tokens, account details, or private setup. |
+|| StreamDock | Public or public-intended | Upcoming build | Streaming/workflow support. Avoid exposing platform tokens, account details, or private setup. |
+|| QuietVault | Public or public-intended | Upcoming build | Personal vault or records tooling. Privacy and security claims must remain conservative unless proven. |
 
 ## Monthly Health Check
 
@@ -29,7 +30,6 @@ First monthly ecosystem health check completed on **2026-06-05**. All 8 tracked 
 - **Consider tagging ecosystem-standards** as v1.0.0 baseline
 
 See [`repos/health-checks/2026-06-first-monthly-health-check.md`](./repos/health-checks/2026-06-first-monthly-health-check.md) for full results.
-| QuietVault | Public or public-intended | Upcoming build | Personal vault or records tooling. Privacy and security claims must remain conservative unless proven. |
 
 ## Status Rules
 

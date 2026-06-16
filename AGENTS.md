@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Builder Journal tracks the direction and status of Sparsh Sam's software ecosystem at a public-safe level.
+Builder Journal tracks the direction and status of your software ecosystem at a public-safe level.
 
-## How Agents Should Use This Repo
+## How You Should Use This Repo
 
 - Understand current ecosystem priorities before changing another repository.
 - Update public-safe status notes when work lands.
